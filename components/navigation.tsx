@@ -18,7 +18,7 @@ export function Navigation() {
           className="flex items-center gap-2 font-bold text-base sm:text-xl text-primary"
         >
           <Droplet className="w-5 h-5 sm:w-6 sm:h-6" />
-          <span className="truncate">DrishtiBharat</span>
+          <span className="truncate">CleanConnect </span>
         </Link>
 
         {/* Right section */}

@@ -100,7 +100,7 @@ export default function AuthPage() {
         <Card className="p-8 border border-border">
           <div className="flex items-center justify-center gap-2 mb-8">
             <Droplet className="w-6 h-6 text-primary" />
-            <h1 className="text-2xl font-bold text-foreground">CleanConnect</h1>
+            <h1 className="text-2xl font-bold text-foreground">CleanConnect </h1>
           </div>
 
           <h2 className="text-xl font-semibold text-foreground mb-2 text-center">

@@ -69,7 +69,7 @@ export default function HomePage() {
         </h1>
 
         <p className="text-lg text-white/90 mb-8 leading-relaxed text-pretty">
-          DrishtiBharat empowers citizens to report cleanliness issues and track
+          CleanConnect  empowers citizens to report cleanliness issues and track
           community impact. Together, we can make our cities cleaner, healthier,
           and more vibrant.
         </p>
@@ -153,7 +153,7 @@ export default function HomePage() {
       {/* Footer */}
       <footer className="bg-card border-t border-border py-8 mt-12">
         <div className="max-w-7xl mx-auto px-4 text-center text-foreground/70 text-sm">
-          <p>© 2024 CleanConnect. Making cities cleaner, one report at a time.</p>
+          <p>© 2026 CleanConnect . Making cities cleaner, one report at a time.</p>
         </div>
       </footer>
     </main>
