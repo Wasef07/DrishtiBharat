@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💧 CleanConnect  
+### AI-Powered Civic Cleanliness Reporting Platform  
 
-## Getting Started
+---
 
-First, run the development server:
+## 🚀 Overview  
+  CleanConnect is an AI-driven civic tech platform that enables citizens to report urban cleanliness issues in a reliable, transparent, and efficient way.  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+  The system uses **client-side AI** to validate images, ensuring only genuine reports reach authorities, while a **reward mechanism** encourages active citizen participation.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎯 Problem  
+Urban cleanliness issues often go unaddressed due to:  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Slow and manual complaint systems  
+- Lack of verification leading to fake reports  
+- Low citizen engagement  
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 💡 Solution  
+  CleanConnect solves this by combining:  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-  Real-time image capture (camera-only)  
+-  AI-based image validation  
+-  Location-based reporting  
+-  Authority dashboard for action  
+-  Reward system for engagement  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ⚙️ How It Works  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Citizen captures a live image of a cleanliness issue  
+2. AI analyzes the image and generates a confidence score  
+3. Verified reports are submitted with location data  
+4. Authorities review and update issue status  
+5. Citizens receive rewards upon resolution  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🧠 AI Implementation  
+
+- Model: **MobileNet (Pre-trained)**  
+- Framework: **TensorFlow.js**  
+- Runs directly in the browser (**client-side AI**)  
+
+### Why Client-Side AI?
+- Faster response time  
+- Better privacy (no image upload required)  
+- No heavy backend dependency  
+- Suitable for MVP deployment  
+
+---
+
+## 🛠️ Tech Stack  
+
+- Frontend: Next.js (React), Tailwind CSS  
+- AI: TensorFlow.js, MobileNet  
+- APIs: Camera API, Geolocation API  
+
+---
+
+## ✨ Key Features  
+
+-  AI-powered image validation  
+-  Camera-only image capture (prevents fake uploads)  
+-  Real-time location tagging  
+-  Authority dashboard for issue tracking  
+-  Reward-based engagement system  
+
+---
+
+## 🏆 Achievement  
+
+🏅 Selected for **Final Offline Round** of  **Cognithon AI Hackathon (Enyugma’26)**  organized by **IIIT Bhagalpur**
+
+---
+
+## 🔮 Future Improvements  
+
+- Backend integration for persistent data  
+- Custom-trained garbage detection model  
+- Smart city integration  
+- Real-world reward partnerships  
+
+---
+
+## 🔗 Live Demo  
+https://cleanconnect-mvp.vercel.app/
+
+---
+
+
+## 📌 Conclusion  
+
+ CleanConnect demonstrates how **AI + citizen participation + incentives** can create a scalable solution for cleaner and smarter cities.
+
+---
+
+## ⭐ Show Your Support  
+
+If you like this project, give it a ⭐ on GitHub!
